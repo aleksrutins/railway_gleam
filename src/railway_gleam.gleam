@@ -15,8 +15,6 @@ pub fn main() {
       fn() { 8080 },
     )
 
-  io.debug(#("Listening on", port))
-
   let assert Ok(_) =
     fn(_req) {
       response.new(200)
