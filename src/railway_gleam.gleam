@@ -3,7 +3,6 @@ import gleam/erlang/os
 import gleam/erlang/process
 import gleam/http/response
 import gleam/int
-import gleam/io
 import gleam/result.{flatten, lazy_unwrap, map}
 import mist
 
